@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilo.css" />
@@ -21,7 +24,7 @@
 
     <section class="descricao"> 
         <p>Cloque aqui uma leve descrição sobre você</p>
-
+        <button id="botao">continue aqui!</button>
     </section>
     
     <section class="conteudo">
@@ -43,7 +46,8 @@
 
     <section class="falacomigo">
         <h2>Interressado no meu curriculo?</h2>
-        <form>
+        <formaction="https://formspree.io/f/xrbqgenn"
+        method="POST">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
             <label for="telefone">Telefone:</label>
@@ -54,9 +58,11 @@
 
     <selection class="rodape">
         <div class="Sobre mim">
+          <div id="card">
             <h2>Sobre mim</h2>
             <p>Descreva aqui informações sobre você, 
                 quem vocé é, suas paixons e objetivos.</p>
+        </div>
         </div>
         <div class="Meu canal">
             <h2>Meu Canal</h2>
@@ -67,7 +73,9 @@
             <h2>Mensagem Positiva</h2>
             <p>O sucesso é a soma de pequenos esforços
                  repetidos diariamente.</p>
-        </div>
-
+        </div>[
+    </selection>]
+        
+  <script src="index.js"></script>
   </body>
 </html>
